@@ -4,7 +4,7 @@ import 'package:meet_app/models/user_model.dart';
 class DbService {
   final DatabaseReference _dbRef = FirebaseDatabase.instance.reference();
   final String _userTable = "users";
-  final String _categorieTable = "categories";
+  // final String _categorieTable = "categories";
 
   DatabaseReference get dbRef => _dbRef.child(_userTable);
 
