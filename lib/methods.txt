@@ -1,0 +1,14 @@
+Future<void> addUserToDb(FirebaseUser currentUser) async {
+    user = User(
+        uid: currentUser.uid,
+        email: currentUser.email,
+        name: currentUser.displayName,
+        profilePhoto: currentUser.profilePhoto,
+        userName: currentUser.email.split('@')[0],
+    );
+
+    firestore
+        .collection("users")
+        .document(currentUser.uid)
+        .setData(user.toMap(user));
+}
