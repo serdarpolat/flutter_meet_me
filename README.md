@@ -1,6 +1,5 @@
-# meet_app
-
-A new Flutter project.
+<h1 align="center">Meet App</h1>
+<p align="center"><img src="https://raw.githubusercontent.com/serdarpolat/flutter_meet_me/main/assets/images/heart_icon.svg" /></p>
 
 ## Getting Started
 
