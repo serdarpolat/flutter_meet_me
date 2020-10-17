@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "720625420204",
+    "firebase_url": "https://meet-me-1ca5d.firebaseio.com",
+    "project_id": "meet-me-1ca5d",
+    "storage_bucket": "meet-me-1ca5d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:720625420204:android:f969a1c6be3a4147811c09",
+        "android_client_info": {
+          "package_name": "com.example.meet_me"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "720625420204-pjaehmdd46lnnl1kvdnrr6bh17np3kkc.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.meet_me",
+            "certificate_hash": "923a98e26e13333abad180fb3c9cad8a966779c5"
+          }
+        },
+        {
+          "client_id": "720625420204-apbichvv1aq79eumr3kgkkoiiqr4desc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD3CeE46yZOaZssu_8q7TB2HnOv4-5jDC0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "720625420204-apbichvv1aq79eumr3kgkkoiiqr4desc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
